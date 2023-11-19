@@ -12,7 +12,7 @@ import openai_vision
 service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
 # OpenAI API Key
-api_key = "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"
+api_key = "API_KEY_HERE"
 
 # Navigate to Google
 driver.get("http://www.google.com")
